@@ -3,7 +3,7 @@ import {useEffect, useState} from "react";
 
 function Detail() {
     const [detail, setDetail] = useState(true)
-    const [movie, setMovie] = useState([])
+    const [movie, setMovie] = useState(null)
 
     const {id} = useParams()
 
